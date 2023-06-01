@@ -1,0 +1,13 @@
+.daily{
+    display: flex;
+    margin-bottom:8%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dailyCard{
+    border: 2px dotted black;
+}
+.card{
+    margin-top: 5%;
+}

@@ -1,0 +1,31 @@
+.special{
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+.specialCard{
+    margin-top: 3%;
+    border: 2px solid black;
+}
+
+.special button {
+    margin-top: 5%;
+    color: black;
+    background-color: #ffcc00;
+    margin-top: 3%;
+    margin-left: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.special button:hover {
+    background-color: black;
+    color: #ffcc00;
+}
+.special button:focus{
+    box-shadow: none;
+   }

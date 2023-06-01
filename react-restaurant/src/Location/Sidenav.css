@@ -1,0 +1,30 @@
+.sidenav {
+    height: 100%;
+    width: 100%;
+}
+span{
+    font-weight: bold;
+}
+.list-group-item {
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: 500;
+    margin-top: 0;
+}
+h6{
+    font-weight: bolder;
+}
+.buttons button {
+    margin-top: 5%;
+    color: black;
+    background-color: #ffcc00;
+    margin-top: 3%;
+    margin-right: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.buttons button:hover {
+    background-color: black;
+    color: #ffcc00;
+}

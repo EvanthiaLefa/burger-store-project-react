@@ -1,0 +1,27 @@
+.navMenu {
+    width: 100%;
+    height: 50px;
+    background-color:  #ffcc00;
+    display: flex;
+    justify-content: center;
+  }
+  .navMenu .buttons {
+    display: flex;
+  }
+
+  .navMenu .buttons button {
+    color:  black;
+    background-color: #ffcc00;
+    margin-top: 3%;
+    margin-right: .5em;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .navMenu .buttons button:focus{
+   box-shadow: none;
+  }
+
+  .navMenu .buttons button:hover {
+    background-color: black;
+    color: #ffcc00;
+  }

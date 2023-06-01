@@ -1,0 +1,33 @@
+.menu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu p{
+    width: 40%;
+    align-self: center;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.card-body{
+    text-align:start;
+}
+.card-body h3{
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+.card-body h2{
+    color: black;
+    font-weight: 800;
+    margin: 0;
+}
+.card-body p{
+    margin: 0;
+    font-weight: 500;
+}
+.container .col-sm-6{
+    align-self: center;
+  }
