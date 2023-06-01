@@ -1,2 +1,3 @@
 # burger-store-project-react
-A project about practicing skills in react
+A project about practicing skills in react. Is in progress
+
