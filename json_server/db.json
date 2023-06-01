@@ -1,0 +1,19 @@
+{
+    "dailly": [
+      { "id": 1, "title": "Humburger", "description": "Cheese tomato , chedar sauce , lettuce bacon", "category":"main" },
+      { "id": 2, "title": "Nuggets", "description": " Chicken Nuggets", "category":"appetizers" },
+      { "id": 2, "title": "House Salad", "description": "Cheese, tomato , chicken , lettuce , bacon , avocado sauce" ,"category":"main"},
+      { "id": 4, "title": "Cheesecake", "description": "Cheese cream , strawberry, biscuit, ssugar cream", "category":"dessert" },
+      { "id": 5, "title": "Steak", "description": " Beef , potatoes, green salad, bbq sauce", "category":"main" }
+    ],
+    "specials": [
+      { "id": 1, "title": "Cheeseburger", "description": "cheese ham and sauce" },
+      { "id": 2, "title": "Fries with cheddar and bacon", "description": "" },
+      { "id": 3, "title": "Texas", "description": "burger with cheese, ham, and texas sauce" },
+      { "id": 4, "title": "BBQ burger", "description": "chopped pork, melted cheese, onions, BBQ sauce, sesame bun" },
+      { "id": 5, "title": "Chicken wings", "description": "chicken wings with sauce and potatoes on side" },
+      { "id": 6, "title": "Turkey Burger", "description": " sesame burger bread ,  garlic sauce , crispy onions , tomato and green salad" },
+      {"id":7, "title": "IPA Beer", "description":"Indian Pale Ale Beer"}
+    ],
+    "happyhour": { "name": "typicode" }
+  }
