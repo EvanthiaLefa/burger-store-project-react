@@ -1,3 +1,3 @@
-# burger-store-project-react
-A project about practicing skills in react. Is in progress
+# burger-store-project-react (in Progress)
+A project about practicing skills in react.
 
