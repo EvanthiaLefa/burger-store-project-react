@@ -15,5 +15,13 @@
       { "id": 6, "title": "Turkey Burger", "description": " sesame burger bread ,  garlic sauce , crispy onions , tomato and green salad" },
       {"id":7, "title": "IPA Beer", "description":"Indian Pale Ale Beer"}
     ],
-    "happyhour": { "name": "typicode" }
+     "happyhour": [
+      { "id": 1, "title": "Cheeseburger", "description": "cheese ham and sauce", "price": 6 },
+      { "id": 2, "title": "Fries with cheddar and bacon", "description": "Fries with cheddar and bacon", "price": 3 },
+      { "id": 3, "title": "Texas", "description": "burger with cheese, ham, and texas sauce",  "price": 6.5 },
+      { "id": 4, "title": "BBQ burger", "description": "chopped pork, melted cheese, onions, BBQ sauce, sesame bun" ,"price": 6.8 },
+      { "id": 5, "title": "Chicken wings", "description": "chicken wings with sauce and potatoes on side", "price": 5 },
+      { "id": 6, "title": "Turkey Burger", "description": " double turkey, sesame burger bread, garlic sauce, crispy onions, tomato and green salad", "price": 7  },
+      { "id":7, "title": "IPA Beer", "description":"Indian Pale Ale Beer", "price":2.3}
+    ]
   }

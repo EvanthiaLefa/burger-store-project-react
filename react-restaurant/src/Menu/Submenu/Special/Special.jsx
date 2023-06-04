@@ -19,7 +19,8 @@ const Special = () => {
     const sortedArray = [...specials].sort(
       (
         a,
-        b // creates a new sorted array based on the specials state, sorting the objects by their title property in ascending order.
+        b
+        // creates a new sorted array based on the specials state, sorting the objects by their title property in ascending order.
       ) => (a.title > b.title ? 1 : -1)
     );
     setSpecials(sortedArray); //stores the sorted array on specials state

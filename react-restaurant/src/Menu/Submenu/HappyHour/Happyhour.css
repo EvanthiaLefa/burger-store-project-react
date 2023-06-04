@@ -1,0 +1,26 @@
+.happyhour{
+        display: flex;
+        margin-bottom: 5%;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+}
+
+.happyhour button {
+    margin-top: 5%;
+    color: black;
+    background-color: #ffcc00;
+    margin-top: 3%;
+    margin-left: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+}
+
+.happyhour tr{
+    border-color: black;
+}
+.happyhour table{
+    margin-top: 2%;
+    margin-bottom : 5%;
+}
