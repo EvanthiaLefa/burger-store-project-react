@@ -6,8 +6,40 @@
     justify-content: space-around ;
     color: #ffcc00;
     font-size: larger;
+    align-items: center;
 }
 
-.footer h4{
-    margin-top: 2%;
+.icons .fa-twitter{
+ margin: 6px;
+ background-color: #ffcc00;
+ color: black ;
+ padding-top: 8px; 
+ padding-bottom: 6px ;
+ padding-left: 8px;
+ padding-right: 8px;
+ border-radius: 50%;
+ font-size: 1rem;
+}
+
+.icons .fa-instagram{
+    margin: 2px;
+    background-color: #ffcc00;
+    color: black ;
+    padding-top: 8px; 
+    padding-bottom: 6px ;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.icons .fa-facebook{
+    margin: 2px;
+    background-color: #ffcc00;
+    color: black ;
+    padding-top: 8px; 
+    padding-bottom: 7px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    font-size: 1rem;
 }

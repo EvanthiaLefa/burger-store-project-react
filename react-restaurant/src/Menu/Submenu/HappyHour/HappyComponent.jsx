@@ -30,13 +30,16 @@ const HappyComponent = ({
     }
   };
 
+  //<i class="fa-solid fa-sort-down" style="color: #000000;"></i>
+  //<i class="fa-solid fa-sort-up" style="color: #000000;"></i>
+
   return (
-    <table class="table">
+    <table class="table shadow-lg">
       <thead>
         <tr>
           <th scope="col">
             <button type="button" onClick={toggleSorting}>
-              Title
+              Title {sortingOrder === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> : <i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i>}
             </button>
           </th>
           <th scope="col">
@@ -44,7 +47,7 @@ const HappyComponent = ({
           </th>
           <th scope="col">
             <button type="button" onClick={togglePriceSorting}>
-              Price
+              Price {priceOrder === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> : <i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i>}
             </button>
           </th>
         </tr>
@@ -54,7 +57,7 @@ const HappyComponent = ({
           <tr>
             <td>{offer.title}</td>
             <td>{offer.description}</td>
-            <td>{offer.price}</td>
+            <td>{offer.price}&euro;</td>
           </tr>
         ))}
       </tbody>

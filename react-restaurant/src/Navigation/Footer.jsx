@@ -6,7 +6,18 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <h4>Footer</h4>
+      <div className="icons">
+      <a href="#">
+      <i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="#">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="#">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      </div>
+      <span>&copy;evanthia.lefa</span>
+      <h4>Burger House</h4>
     </div>
   );
 };

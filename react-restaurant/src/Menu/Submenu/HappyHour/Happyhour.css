@@ -23,4 +23,6 @@
 .happyhour table{
     margin-top: 2%;
     margin-bottom : 5%;
+    border: 2px solid black; 
+    
 }
