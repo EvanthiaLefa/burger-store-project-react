@@ -9,13 +9,17 @@ const HappyComponent = ({
 }) => {
   const [sortingOrder, setSortingOrder] = useState("descending");
   const [priceOrder, setPriceOrder] = useState("descending");
+  const [titleIcon, setTitleIcon] = useState("startIcon");
+  const [priceIcon, setPriceIcon] = useState("startIcon");
 
   const toggleSorting = () => {
     if (sortingOrder === "descending") {
       setSortingOrder("ascending");
+      setTitleIcon("ascending");
       handleSortAscending(); // Call the ascending sorting function
     } else {
       setSortingOrder("descending");
+      setTitleIcon("descending");
       handleSortDescending(); // Call the descending sorting function
     }
   };
@@ -23,15 +27,14 @@ const HappyComponent = ({
   const togglePriceSorting = () => {
     if (priceOrder === "descending") {
       setPriceOrder("ascending");
+      setPriceIcon("ascending");
       handlePriceAscending(); // Call the ascending sorting function
     } else {
       setPriceOrder("descending");
+      setPriceIcon("descending");
       handlePriceDescending(); // Call the descending sorting function
     }
   };
-
-  //<i class="fa-solid fa-sort-down" style="color: #000000;"></i>
-  //<i class="fa-solid fa-sort-up" style="color: #000000;"></i>
 
   return (
     <table class="table shadow-lg">
@@ -39,7 +42,9 @@ const HappyComponent = ({
         <tr>
           <th scope="col">
             <button type="button" onClick={toggleSorting}>
-              Title {sortingOrder === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> : <i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i>}
+              Title {titleIcon==="startIcon"?<i class="fa-solid fa-sort" style={{ color: "#000000;" }}></i> 
+              : titleIcon === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> 
+              : titleIcon === "ascending" ?<i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i> :<i class="fa-solid fa-sort" style={{ color: "#000000;" }}></i> }
             </button>
           </th>
           <th scope="col">
@@ -47,7 +52,9 @@ const HappyComponent = ({
           </th>
           <th scope="col">
             <button type="button" onClick={togglePriceSorting}>
-              Price {priceOrder === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> : <i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i>}
+              Price {priceIcon==="startIcon"?<i class="fa-solid fa-sort" style={{ color: "#000000;" }}></i> 
+              : priceIcon === "descending" ? <i  class="fa-solid fa-arrow-down-wide-short" style={{ color: "#000000;" }}></i> 
+              : priceIcon === "ascending" ?<i  class="fa-solid fa-arrow-up-wide-short" style={{ color: "#000000;" }}></i> :<i class="fa-solid fa-sort" style={{ color: "#000000;" }}></i> }
             </button>
           </th>
         </tr>
