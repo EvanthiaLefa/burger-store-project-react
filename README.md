@@ -9,7 +9,7 @@
 A project about practicing skills in react.
 I'm using Hooks to handle the request and the data i'm receiving(useEffect, useState),
 React Router to implement the routing,
-Bootstrap for the styles 
+Bootstrap for the styles and Font Awesome for the sorting icons.
 
 ## install-and-run-project
 1.Open your terminal and then type: 
