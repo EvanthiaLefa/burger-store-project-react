@@ -1,12 +1,17 @@
-
+# burger-store-project-react (in Progress)
 
 # Table of Contents
-1. [My first title](#burger-store-project-react (in Progress))
-2. [My second title](#my-second-title)
+1. [Description](#burger-store-project-react:Description)
+2. [How to Install and Run the Project](#install-and-run-project)
 
 
-## burger-store-project-react (in Progress)
+## burger-store-project-react:Description
 A project about practicing skills in react.
+I'm using Hooks to handle the request and the data i'm receiving(useEffect, useState),
+React Router to implement the routing,
+Bootstrap for the styles 
+
+## install-and-run-project
 
 
 
