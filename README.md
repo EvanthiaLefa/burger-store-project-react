@@ -12,4 +12,19 @@ React Router to implement the routing,
 Bootstrap for the styles 
 
 ## install-and-run-project
+1.Open your terminal and then type:
+$ git clone {the url to the GitHub repo}
+This clones the repo
+
+2.cd into json_server folder and type:
+npx json-server -w db.json -p 3004
+This will start the json-server
+
+3.cd into react-restaurant folder and type:
+$ npm install
+This installs the required dependencies
+
+4.into the react-restaurant type: 
+$ npm start
+This will run the React project.
 
