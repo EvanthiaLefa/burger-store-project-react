@@ -13,30 +13,3 @@ Bootstrap for the styles
 
 ## install-and-run-project
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## My second title
-Some text.
