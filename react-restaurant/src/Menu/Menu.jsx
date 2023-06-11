@@ -118,14 +118,7 @@ const Menu = () => {
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
-                <h3 class="card-title mt-3">
-                  <u>Special</u>{" "}
-                </h3>
-                <p class="card-text">Lorem ipsum dolor</p>
-                <p class="card-text">Lorem ipsum dolor</p>
-                <p class="card-text">Lorem ipsum dolor</p>
-                <p class="card-text">Lorem ipsum dolor</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p> 
               </div>
             </div>
           </div>
