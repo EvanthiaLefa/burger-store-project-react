@@ -1,0 +1,43 @@
+.subscribe{
+    margin-top: 8%;
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 10.2%;
+}
+.subscribe input{
+  background-color: transparent;
+  border: 2px solid black;
+}
+.subscribe input:focus{
+    box-shadow: none;
+    background-color: transparent;
+   }
+p{
+    width: 30%;
+}
+.subscribe button {
+    width: 50em;
+    margin-top: 5%;
+    color: #ffcc00;
+    background-color: black;
+    margin-top: 3%;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.subscribe button:hover{
+    color: black;
+}
+.subscribe button:focus{
+    box-shadow: none;
+   }
+
+   a{
+    color: black;
+   }
+  a:hover {
+    color: black;
+   }

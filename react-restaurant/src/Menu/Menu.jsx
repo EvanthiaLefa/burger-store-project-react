@@ -49,12 +49,12 @@ const Menu = () => {
             <div class="card">
               <div class="card-body">
                 <h2>Special title treatment</h2>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h2>Special title treatment</h2>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <h3 class="card-title">Special title treatment</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <h3 class="card-title">Lorem ipsum dolor sit amet</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -68,27 +68,27 @@ const Menu = () => {
               <div class="card-body">
                 <h3 class="card-title">Special title</h3>
                 <p class="card-text">
-                  Welcome to Burger Haven Lorem ipsum dolor sit amet
+                  Welcome to Burger House Lorem ipsum dolor sit amet
                   consectetur, adipisicing elit. Laborum minima ullam voluptatem
                 </p>
                 <h3 class="card-title">Special title</h3>
                 <p class="card-text">
-                  Welcome to Burger Haven Lorem ipsum dolor sit amet
+                  Welcome to Burger House Lorem ipsum dolor sit amet
                   consectetur, adipisicing
                 </p>
                 <h3 class="card-title">Special title</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h3 class="card-title">Special title</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h3 class="card-title">Special title</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h3 class="card-title">Special title</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h3 class="card-title">Special title</h3>
-                <p class="card-text">Welcome to Burger Haven</p>
+                <p class="card-text">Welcome to Burger House</p>
                 <h3 class="card-title">Special title</h3>
                 <p class="card-text">
-                  Welcome to Burger Haven Lorem ipsum dolor sit amet
+                  Welcome to Burger House Lorem ipsum dolor sit amet
                   consectetur, adipisicing elit. Laborum minima
                 </p>
               </div>
@@ -113,19 +113,12 @@ const Menu = () => {
                 <h3 class="card-title mt-2">
                   <u>Special</u>{" "}
                 </h3>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <p class="card-text">Welcome to Burger Haven</p>
-                <h3 class="card-title mt-3">
-                  <u>Special</u>{" "}
-                </h3>
-                <p class="card-text">Burger Haven</p>
-                <p class="card-text">Burger Haven</p>
-                <p class="card-text">Burger Haven</p>
-                <p class="card-text">Burger Haven</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>

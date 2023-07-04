@@ -33,9 +33,9 @@ const NavBar = () => {
             Special Offer
           </button>
         </Link>
-        <Link to="login/order">
+        <Link to="subscribe">
           <button type="button" className="btn">
-            Login and Order
+            Subscribe And Win
           </button>
         </Link>
       </div>

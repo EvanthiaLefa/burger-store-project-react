@@ -40,9 +40,9 @@ const SideNav = () => {
         <li class="list-group-item"></li>
       </ul>
       <div className="buttons">
-        <Link to="login/order">
+        <Link to="subscribe">
           <button type="button" className="btn">
-            ORDER NOW
+            SUBSCRIBE
           </button>
         </Link>
       </div>
