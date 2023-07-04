@@ -53,7 +53,11 @@ const Menu = () => {
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <h2>Special title treatment</h2>
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
+<<<<<<< HEAD
                 <h3 class="card-title">Lorem ipsum dolor sit amet</h3>
+=======
+                <h3 class="card-title"Lorem ipsum dolor sit amet</h3>
+>>>>>>> 5535cef68a6b61f82ebcf1668ad54f8568314b53
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
@@ -118,7 +122,11 @@ const Menu = () => {
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
+<<<<<<< HEAD
                 <p class="card-text">Lorem ipsum dolor sit amet</p>
+=======
+                <p class="card-text">Lorem ipsum dolor sit amet</p> 
+>>>>>>> 5535cef68a6b61f82ebcf1668ad54f8568314b53
               </div>
             </div>
           </div>
