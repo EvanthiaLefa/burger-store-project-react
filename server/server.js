@@ -2,8 +2,15 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Subscriber from './subsriber.js';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
 const app = express();
+
+// Configure body-parser middleware
+app.use(bodyParser.json());
+
+app.options('*', cors()) // include before other routes
 
 mongoose.connect('mongodb://127.0.0.1:27017/emailList', {
   useNewUrlParser: true,
@@ -17,14 +24,21 @@ mongoose.connect('mongodb://127.0.0.1:27017/emailList', {
     console.error('Error connecting to MongoDB:', error);
   });
 
-app.get('/subscribe', (req, res) => {
-  
-  const subscriber = new Subscriber({ 
-  firstName: "Suzan",
-  lastName: "Miller",
-  email: "miller@gmail.com" });
-  subscriber.save();
-  res.send('Hello, World!');
+app.post('/subscribe', (req, res) => {
+  const { email } = req.body;
+  if (!email) {
+    res.status(400).send('Email is required');
+    return;
+  }
+  const subscriber = new Subscriber({ email });
+  subscriber.save()
+    .then(() => {
+      res.status(200).send('Subscription successful');
+    })
+    .catch((error) => {
+      console.error('Error saving subscriber:', error);
+      res.status(500).send('Error saving subscriber');
+    });
 });
 
 app.get('/get/subscribe', (req, res) => {
@@ -37,6 +51,17 @@ app.get('/get/subscribe', (req, res) => {
     res.status(500).send('Error retrieving subscribers');
   });
 });
+
+// app.delete('/unsubscribe/all', (req, res) => {
+//   Subscriber.deleteMany({})
+//     .then(() => {
+//       res.status(200).send('All subscribers unsubscribed successfully');
+//     })
+//     .catch((error) => {
+//       console.error('Error deleting subscribers:', error);
+//       res.status(500).send('Error deleting subscribers');
+//     });
+// });
 
 
 app.listen(8080, () => {

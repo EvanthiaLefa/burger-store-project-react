@@ -10,7 +10,7 @@ const Subscribe = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/subscribe", {
+      const response = await fetch("http://localhost:8080/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -28,16 +28,16 @@ const Subscribe = () => {
       console.error("Error subscribing:", error);
       // Handle the error or display an error message to the user
     }
+    handleSubscribe()
   };
 
   const handleSubscribe = () => {
     setSubscription(true);
   };
-
   return (
     <div className="subscribe">
       {subscription ? (
-        <div class="card" style={{ width: "30rem" }}>
+        <div class="card card-subscribe" style={{ width: "30rem" }}>
           <h5 class="card-title mt-2">Thank you for your subscription!!</h5>
           <p class="mt-2" style={{ width: "20rem" }}>
             Check your email you will receive your discount code.
@@ -67,7 +67,7 @@ const Subscribe = () => {
               <button
                 type="submit"
                 className="btn mb-3"
-                onClick={handleSubscribe}
+                onClick={handleSubmit}
               >
                 Subscribe
               </button>

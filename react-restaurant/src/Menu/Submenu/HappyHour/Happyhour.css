@@ -24,5 +24,10 @@
     margin-top: 2%;
     margin-bottom : 5%;
     border: 2px solid black; 
-    
+}
+.happyhour th{
+    background-color:#ffcc00
+}
+.happyhour td{
+    background-color:#ffcc00
 }
