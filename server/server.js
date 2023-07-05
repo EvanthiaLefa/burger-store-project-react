@@ -4,13 +4,14 @@ import mongoose from 'mongoose';
 import Subscriber from './subsriber.js';
 import bodyParser from 'body-parser';
 import cors from 'cors';
+import nodemailer from 'nodemailer';
 
 const app = express();
 
 // Configure body-parser middleware
-app.use(bodyParser.json());
+app.use(bodyParser.json());  // takes the stream of data in the req.body and parses it as JSON to be accessible through the req.body property, allowing to read and work with the data conveniently
 
-app.options('*', cors()) // include before other routes
+app.options('*', cors());  //the cors middleware handles the preflight requests for all routes, allowing cross-origin requests to be processed appropriately
 
 mongoose.connect('mongodb://127.0.0.1:27017/emailList', {
   useNewUrlParser: true,
@@ -34,6 +35,7 @@ app.post('/subscribe', (req, res) => {
   subscriber.save()
     .then(() => {
       res.status(200).send('Subscription successful');
+      // methodo pou tha stelnei to email sto email pou ekane subscribe
     })
     .catch((error) => {
       console.error('Error saving subscriber:', error);
