@@ -32,7 +32,7 @@ $ npm start
  $ npm install 
   (This installs the required dependencies)
 
-6. Configure MongoDB:
+ 6.Configure MongoDB:
   Make sure you have MongoDB installed and running on your local machine.
   Open the `server.js` file in the `server` folder.
   -Locate the following line of code:
