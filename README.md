@@ -48,4 +48,6 @@ $ npm start
  7.cd into server folder and type: 
  $ nodemon server.js 
    (This will start the server and listen for incoming requests on port 8080)
-    [you need to have a mongoDB rrunning in order to use the server folder and to configure it in the server.js file]
+
+ 8.Access the application:
+  With the React project running and the server started, you can access the application by visiting http://localhost:3000 in your browser.
